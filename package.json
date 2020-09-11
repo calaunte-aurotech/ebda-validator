@@ -1,0 +1,27 @@
+{
+  "name": "ebda-validator",
+  "version": "1.0.0",
+  "description": "EBDA Submission Validator",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calaunte-aurotech/ebda-validator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calaunte-aurotech/ebda-validator/issues"
+  },
+  "homepage": "https://github.com/calaunte-aurotech/ebda-validator#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
